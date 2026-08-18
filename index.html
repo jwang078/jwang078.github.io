@@ -38,18 +38,6 @@ redirect_from: "/about"
   <li><a href="/news">...see all news</a></li>
 </ul>
 
-
-<h2>Recent Blog Posts</h2>
-
-<div class="posts">
-  {% for post in site.posts limit:4 %}
-    <article>
-      <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-    </article>
-  {% endfor %}
-  <a href="/archive/index">...see all posts</a>
-</div>
-
 <h2>Publications</h2>
 
 <table cellpadding="10" width="100%">
